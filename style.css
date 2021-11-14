@@ -66,6 +66,8 @@ img{
 
 .info{
     background-color: var(--card-background);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     text-align: center;
     margin-bottom: 20px;
     padding: 40px 20px 0px 20px;
@@ -129,6 +131,7 @@ span{
     .info{
         border-bottom-left-radius: 10px;
         border-top-left-radius: 10px;
+        border-bottom-right-radius: 0;
         text-align: left;
         width: 550px;
         height: 450px;
